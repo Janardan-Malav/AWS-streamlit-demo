@@ -11,3 +11,11 @@ ticker_df = ticker_data.history(period = '1m',
                                 end = '2022-01-01')
 st.dataframe(ticker_df)
 st.line_chart(ticker_df.Volume)
+with st.column(1):
+   st.text("Hey")
+
+with st.column(2):
+   st.text("Ram")
+
+with st.column(3):
+   st.text("Ram!")
